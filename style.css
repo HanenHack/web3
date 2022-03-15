@@ -1,0 +1,151 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    color: black;
+}
+
+main, footer{
+    width: 80%;
+    margin: auto;
+    margin-top: 25px;
+}
+header{
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.nav{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Rajdhani', sans-serif;
+    gap: 10px;
+}
+
+
+/* EFFET MENU */
+
+nav a{
+    position: relative;
+}
+
+nav a:hover{
+    color: rgb(40, 42, 141);
+    transition: 0,9s;
+}
+
+nav a:after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 30px;
+    transform: translateX(-50%) scaleX(0);
+    -webkit-transform: translateX(-50%) scaleX(0);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    -webkit-transition: transform 250ms;
+    transition: transform 250ms;
+}
+
+nav a:hover:after{
+    -webkit-transform: translateX(-50%) scaleX(1);
+    transform: translateX(-50%) scaleX(1);
+}
+
+/* fin HEADER */
+
+/* Polices */
+
+h1, h2, h3{
+    font-family: 'Rajdhani', sans-serif;
+}
+
+p{
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+/* END POLICES */
+
+.couv{
+    color: white;
+    height: 616px;
+    background:url(images/couv1.png);
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.couv h1{
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-size: 80px;
+
+}
+.couv p{
+    font-family: 'Fira Sans Condensed', sans-serif;;
+    font-style: italic;
+    font-size: 30px;
+    width: 30%;
+}
+/* .resumesection{
+    background: rgba(63, 63, 148, 0.733);
+} */
+.fondements{
+    text-align: center;
+    /* font-family: 'Rajdhani', sans-serif; */
+    font-weight: bold;
+    font-size: 60px;
+    font-style: italic;
+    margin: 40px;
+}
+h3{
+    font-style: italic;
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+
+}
+
+.sousection1, .soussection2, .sousection3{
+    font-style: italic;
+    font-size: 20px;
+    width: 30%;
+    margin-bottom: 10px;
+}
+
+.text1, .text2, .text3, .text4{
+    /* border: solid violet 6px; */
+    width: 40%;
+    height: 450px;
+    margin-top: 20px;
+}
+.text1 h2, .text2 h2,.text3 h2,.text4 h2{
+    margin-top: 60px;
+}
+.text1 p, .text2 p, .text3 p, .text4 p{
+    margin-top: 10px;
+    font-style: italic;
+    font-size: 20px;
+    margin-top: 40px;
+}
+.footer{
+    font-family:'Rajdhani', sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 40px;
+    color: rgb(40, 42, 141);
+}
