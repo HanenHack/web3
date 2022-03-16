@@ -75,6 +75,9 @@ h1, h2, h3{
 p{
     font-family: 'Fira Sans Condensed', sans-serif;
 }
+.resumesection h3, .resumesection p{
+    color: white;
+}
 
 /* END POLICES */
 
@@ -123,7 +126,12 @@ h3{
     font-size: 20px;
     width: 30%;
     margin-bottom: 10px;
+    background-color: rgba(72, 72, 199, 0.849);
+    /* border-radius: 30%; */
+    padding: 20px;
+    /* color: white; */
 }
+
 
 .text1, .text2, .text3, .text4{
     /* border: solid violet 6px; */
