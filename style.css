@@ -107,7 +107,7 @@ p{
 .couv p{
     /* font-family: 'Fira Sans Condensed', sans-serif;; */
     font-size: 30px;
-    width: 35%;
+    width: 45%;
     margin-left: 22%;
     animation: apparition 0.8s ease-out;
 }
