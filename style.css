@@ -83,7 +83,7 @@ p{
 
 .couv{
     color: white;
-    height: 616px;
+    height: 600px;
     background:url(images/couv1.png);
     flex-direction: column;
     align-items: center;
@@ -98,23 +98,21 @@ p{
 }
 .couv p{
     font-family: 'Fira Sans Condensed', sans-serif;;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 30px;
     width: 30%;
 }
-/* .resumesection{
-    background: rgba(63, 63, 148, 0.733);
-} */
+
 .fondements{
     text-align: center;
     /* font-family: 'Rajdhani', sans-serif; */
     font-weight: bold;
     font-size: 60px;
-    font-style: italic;
+    /* font-style: italic; */
     margin: 40px;
 }
 h3{
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: bold;
     font-size: 25px;
     margin-bottom: 10px;
@@ -122,7 +120,7 @@ h3{
 }
 
 .sousection1, .soussection2, .sousection3{
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 20px;
     width: 30%;
     margin-bottom: 10px;
@@ -141,17 +139,20 @@ h3{
 }
 .text1 h2, .text2 h2,.text3 h2,.text4 h2{
     margin-top: 60px;
+    color: #6464d0;
+    font-size: 40px;
 }
 .text1 p, .text2 p, .text3 p, .text4 p{
     margin-top: 10px;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 20px;
     margin-top: 40px;
+    line-height: 140%;
 }
 .footer{
     font-family:'Rajdhani', sans-serif;
     font-weight: bold;
-    font-style: italic;
+    /* font-style: italic; */
     font-size: 20px;
     text-align: center;
     margin-bottom: 40px;
