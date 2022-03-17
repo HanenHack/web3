@@ -20,7 +20,7 @@ main, footer{
 }
 header{
     width: 40%;
-    margin-left: 10%;
+    margin-left: auto;
     margin-top: 2%;
 }
 .flex{
