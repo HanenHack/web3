@@ -133,7 +133,9 @@ h3{
     /* color: white; */
 }
 
-
+#section1, #section2, #section3, #section4{
+    margin-top: 5%;
+}
 .text1, .text2, .text3, .text4{
     /* border: solid violet 6px; */
     width: 40%;
@@ -141,7 +143,7 @@ h3{
     /* margin-top: 20px; */
 }
 .text1 h2, .text2 h2,.text3 h2,.text4 h2{
-    margin-top: 60px;
+    /* margin-top: 60px; */
     color: #1F497D;
     font-size: 40px;
 }
